@@ -1,0 +1,19 @@
+{
+  "imgServer": "http://imagedev.watchshopping.com/360",
+  "quality": {
+    "normal": 1,
+    "large": 1
+  },
+
+  "mqUrl": "http://localhost:7999/rmq/img360",
+
+  "is2ndHand": false,
+  "selectedSku": { "sku": "testing test1" },
+  "serial": "CCC02002",
+  "skus": [
+    { "sku": "50515/1", "imgUrl": "/public/images/product/IMAGE/30/315100" },
+    { "sku": "50519/1", "imgUrl": "aaa" },
+    { "sku": "50515/2", "imgUrl": null },
+    { "sku": "testing", "imgUrl": null }
+  ]
+}

@@ -1,0 +1,79 @@
+.photo-upload-app-modal-overlay-div {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.photo-upload-app-modal-content-div {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  overflow: auto;
+  text-align: center;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.photo-upload-app-modal-content-div:after {
+  vertical-align: middle;
+  display: inline-block;
+  height: 100%;
+  margin-left: -0.05em;
+  content: '';
+}
+
+.photo-upload-app-modal-dialog-div {
+  position: relative;
+  outline: 0;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  max-width: 60vh;
+  cursor: default;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+}
+
+.photo-upload-app-modal-header {
+  text-align: left;
+  color: black;
+}
+
+/******
+h2 inside header
+******/
+.photo-upload-app-modal-header h3 {
+  margin: 0;
+  border-bottom: 1px solid black;
+  padding: 5px 0 5px 3px;
+}
+
+.photo-upload-app-modal-body {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.photo-upload-app-image-card {
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+/******
+image inside image-card
+******/
+.photo-upload-app-image-card img {
+  max-width: 100%;
+  max-height: 100%;
+}

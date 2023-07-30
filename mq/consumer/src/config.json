@@ -1,0 +1,8 @@
+{
+  "mq": {
+    "protocol": "amqp",
+    "hostname": "172.17.11.104",
+    "username": "image_mq",
+    "password": "66QiVaBr"
+  }
+}

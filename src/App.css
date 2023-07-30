@@ -1,0 +1,131 @@
+.photo-upload-app {
+  text-align: center;
+  position: relative;
+}
+
+.photo-upload-app-wrapper {
+  background-color: #282c34;
+  color: white;
+  z-index: 0;
+  min-height: 60vh;
+}
+
+.photo-upload-app-box-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 3vh 0 3vh 0;
+}
+
+.photo-upload-app-left-side-area {
+  width: 63%;
+}
+
+.photo-upload-app-preview-area {
+  margin-top: 2vh;
+  min-height: 300px;
+  border: 2px solid white;
+  display: flex;
+  justify-content: space-around;
+}
+
+/********
+image inside preview area
+********/
+.photo-upload-app-preview-area img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.photo-upload-app-server-preview {
+  width: 50%;
+}
+
+.photo-upload-app-upload-preview {
+  width: 50%;
+}
+
+.photo-upload-app-file-button {
+  font-size: 20px;
+  color: black;
+  margin: 5px;
+}
+
+.photo-upload-app-file-button:last-child{
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.photo-upload-app-drop-area {
+  overflow: auto;
+  min-height: 300px;
+  width: 33%;
+  border: 2px solid white;
+}
+
+.photo-upload-app-submit-button {
+  font-size: 25px;
+  color: black;
+  margin-bottom: 2vh;
+}
+
+.photo-upload-app-preview-button {
+  font-size: 25px;
+  color: black;
+  margin: 0 0 2vh 2vh;
+}
+
+.photo-upload-app-upload-model-button {
+  font-size: 25px;
+  float: right;
+  color: black;
+  margin-right: 4vh;
+}
+
+.photo-upload-app-uploading {
+  z-index: 2;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute; /*relative to photo-upload-app*/
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.photo-upload-app-uploaded {
+  display: none;
+}
+
+.photo-upload-app-uploading span {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+  opacity: 1;
+  z-index: 3;
+}
+
+.photo-upload-app-spin {
+  margin: auto;
+  margin-top: 120px;
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.photo-upload-app-sku-select {
+  color: black;
+  margin-bottom: 5px;
+}
